@@ -15,6 +15,7 @@
         name: next-sema
         tag: latest
         state: present
+        source: build
 
     - name: Remove the cloned repository
       file:
