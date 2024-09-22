@@ -9,12 +9,12 @@
         dest: /home/ubuntu/nextjs-small
         version: main  # Change to your desired branch/tag
 
-    - name: Build Docker image
+    - name: Build an image
       docker_image:
-        path: /home/ubuntu/nextjs-small
+        build:
+          path: /home/ubuntu/nextjs-small
         name: next-sema
-        tag: latest
-        state: present
+        tag: v1
         source: build
 
     - name: Remove the cloned repository
