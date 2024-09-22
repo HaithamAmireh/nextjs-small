@@ -6,7 +6,7 @@
     - name: Clone the repository
       git:
         repo: 'https://github.com/HaithamAmireh/nextjs-small'
-        dest: /home/ubuntu
+        dest: /home/ubuntu/nextjs-small
         version: main  # Change to your desired branch/tag
 
     - name: Build Docker image
