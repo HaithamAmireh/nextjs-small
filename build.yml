@@ -11,7 +11,7 @@
 
     - name: Build Docker image
       docker_image:
-        path: /opt/next.js/examples/with-docer
+        path: /opt/next.js/
         name: next-sema
         tag: latest
         state: present
